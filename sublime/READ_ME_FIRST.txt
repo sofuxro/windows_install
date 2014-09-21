@@ -14,4 +14,9 @@ AdvancedNewFile - creation of new files
 
 /* ======================================================== */
 // Open folders in sublime
-http://charles.lescampeurs.org/2012/06/18/right-click-open-with-sublime-text-2
+
+OSX
+* http://charles.lescampeurs.org/2012/06/18/right-click-open-with-sublime-text-2
+
+Windows
+* Just open the sublime.reg file
