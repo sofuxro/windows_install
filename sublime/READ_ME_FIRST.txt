@@ -8,6 +8,22 @@ AdvancedNewFile - creation of new files
 
 
 
+/* ======================================================== */
+// Settings - User
+
+{
+    "detect_indentation": false,
+    "font-size": 12,
+    "font_size": 13,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "word_wrap": "true",
+    "atomic_save": true
+}
 
 
 
