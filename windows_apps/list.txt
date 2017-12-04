@@ -4,7 +4,7 @@
 
 * GlassWire
 * CCleaner
-* KeePass
+* KeePass (2.x)
 * Esset NOD32 Security 7
 
 
@@ -12,21 +12,18 @@
 * Web Development
 */
 
+* IE
+* Chrome (PageSpeed, PerfectPixel by WellDoneCode, AdBlock Plus, Ghostery)
+* Firefox (FireFtp, AdBlock Plus, Ghostery)
 * Adobe Photoshop, Illustrator & LightRoom
-* WinLess
 * SublimeText 3 (add key)
-* Dropbox
+* WAMP								------ Save httpd.conf
+* TortoiseGit
 
-* SourceTree (Optional GitHub GUI)
+* (Alternative) SourceTree (Optional GitHub GUI)
     Merge Conflicts
         http://kdiff3.sourceforge.net/
         http://meldmerge.org/
-* (Optional) TortoiseGit
-* (Optional) TortoiseSVN
-
-* (Optional) VirtualBox
-* (Optional) WAMP
-* (Optional) Tracker (from elance)
 
 
 
@@ -34,14 +31,20 @@
 * Miscellaneous
 */
 
+* Winamp (http://winampplugins.co.uk/Winamp/)
 * FoxitRedear
-* Peazip
 * Skype
-* Winamp
 * KMPlayer
 * Putty (add putty_session_bkp.reg)
+* peazip
 
-* PhotomatixPro4
-* Thunderbird
+* (Optional) PhotomatixPro4
+* (Optional) Thunderbird
 
+
+
+
+
+
+* Move download location of browsers to "M:\Temporary Files\Download"
 

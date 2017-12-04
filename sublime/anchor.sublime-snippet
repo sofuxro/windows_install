@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+<a href="#" title="keywords for this">${1}</a>
+]]></content>
+    <tabTrigger>anc</tabTrigger>
+    <description>Anchor template</description>
+</snippet>

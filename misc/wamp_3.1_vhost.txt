@@ -1,0 +1,110 @@
+# Virtual Hosts
+#
+
+<VirtualHost *:80>
+    ServerName localhost
+    DocumentRoot C:/Wamp/www
+    <Directory  "C:/Wamp/www/">
+        Options +Indexes +Includes +FollowSymLinks +MultiViews
+        AllowOverride All
+        Require local
+    </Directory>
+</VirtualHost>
+
+
+<VirtualHost *:80>
+    ServerName devseminte.ro
+    DocumentRoot "m:/work/work/depozituldeseminte.ro/dev/site/public_html"
+    <Directory  "m:/work/work/depozituldeseminte.ro/dev/site/public_html/">
+        Options +Indexes +Includes +FollowSymLinks +MultiViews
+        AllowOverride All
+        Require local
+
+        RewriteEngine on
+
+        RewriteBase /
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteRule ^(.*)$ index.php
+    </Directory>
+</VirtualHost>
+
+
+<VirtualHost *:80>
+    ServerName devsolarii.ro
+    DocumentRoot "m:/work/work/seresisolarii.ro/dev/site/public_html"
+    <Directory  "m:/work/work/seresisolarii.ro/dev/site/public_html/">
+        Options +Indexes +Includes +FollowSymLinks +MultiViews
+        AllowOverride All
+        Require local
+
+        RewriteEngine on
+        RewriteBase /
+
+        RewriteRule ^(.+?)\.[\d+\.]+(css|js)$ $1.$2 [L] # Strip out the version number
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteRule ^(.*)$ index.php
+    </Directory>
+</VirtualHost>
+
+
+<VirtualHost *:80>
+    ServerName devherbs.com
+    DocumentRoot "m:/work/www/projects/herbshealme.com/local/public_html"
+    <Directory  "m:/work/www/projects/herbshealme.com/local/public_html/">
+        Options +Indexes +Includes +FollowSymLinks +MultiViews
+        AllowOverride All
+        Require local
+
+        RewriteEngine on
+
+        RewriteBase /
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteRule ^(.*)$ index.php
+    </Directory>
+</VirtualHost>
+
+
+<VirtualHost *:80>
+    ServerName devterana.ro
+    DocumentRoot "m:/work/www/projects/terana creative/dev/site/public_html"
+    <Directory  "m:/work/www/projects/terana creative/dev/site/public_html/">
+        Options +Indexes +Includes +FollowSymLinks +MultiViews
+        AllowOverride All
+        Require local
+
+        RewriteEngine on
+
+        RewriteBase /
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteRule ^(.*)$ index.php
+    </Directory>
+</VirtualHost>
+
+
+<VirtualHost *:80>
+    ServerName devnunta.ro
+    DocumentRoot "m:/work/www/projects/nuntacudragoste.ro/local/public"
+    <Directory  "m:/work/www/projects/nuntacudragoste.ro/local/public/">
+        Options +Indexes +Includes +FollowSymLinks +MultiViews
+        AllowOverride All
+        Require local
+
+        RewriteEngine on
+        RewriteBase /
+
+        RewriteRule ^(.+?)\.[\d+\.]+(css|js)$ $1.$2 [L] # Strip out the version number
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteRule ^(.*)$ index.php
+    </Directory>
+</VirtualHost>
+
+
+<VirtualHost *:80>
+    ServerName buspaket.de
+    DocumentRoot "m:/work/work/buspaket/webpack_test/site"
+    <Directory  "m:/work/work/buspaket/webpack_test/site/">
+        Options +Indexes +Includes +FollowSymLinks +MultiViews
+        AllowOverride All
+        Require local
+    </Directory>
+</VirtualHost>
