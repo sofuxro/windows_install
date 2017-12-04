@@ -4,9 +4,22 @@ https://sublime.wbond.net/installation
 
 
 
-
 /* ======================================================== */
-(usually in C:\Users\Claudiu\AppData\Roaming\Sublime Text 3\Packages)
+// Settings - User
+
+{
+    "detect_indentation": false,
+    "font-size": 12,
+    "font_size": 13,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "word_wrap": "true",
+    "atomic_save": true
+}
 
 TrailingSpaces      - remove unnecessary white space
 Less                - format recognition
